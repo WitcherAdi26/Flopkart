@@ -1,0 +1,87 @@
+.main{
+    background-color: white;
+    height: 320px;
+}
+
+.body{
+    display: flex;
+}
+
+.Display1Partition{
+    width: 260px; 
+    height: 300px;
+    background-color: darkgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spc_1{
+    width: 2%;
+    background-color: #D8D9DA;
+}
+
+.spc_2{
+    width: 1.5%;
+    background-color: #D8D9DA;
+}
+
+.detail{
+    width: 90%;
+    height: 90%;
+    background-color: whitesmoke;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.detail>img{
+    width: 90%;
+    height: 63%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    background-color: pink;
+}
+
+.detail>h3{
+    font-size: 18px;
+    margin: 0;
+    padding-bottom: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 7%;
+}
+
+.detail>p{
+    font-size: small;
+    margin: 0;
+    height: 13%;
+}
+
+.stars_price{
+    display: flex;
+    width: 95%;
+    height: 10%;
+}
+
+.stars{
+    display: flex;
+    width: 55%;
+    align-items: center;
+}
+
+.stars>.MuiSvgIcon-root{
+    font-size: 17.5px;
+    color: #181823;
+}
+
+.price{
+    display: flex;
+    width: 45%;
+    align-items: center;
+}
+
+.price>.MuiSvgIcon-root{
+    font-size: 25px;
+    color: #181823;
+}

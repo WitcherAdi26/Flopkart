@@ -1,0 +1,31 @@
+.catagory{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    height: 135px;
+    /* padding-top: 10px; */
+}
+
+.catagory__partition{
+    width: 12.5%;
+    height: 125px;
+    align-items: center;
+}
+
+.first{
+    padding-top: 7.5%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.first>p{
+    margin: 0 0 0 0;
+    padding-top: 6px;
+}
+
+.first>img{
+    height: 64px;
+    width: 64px;
+}
+

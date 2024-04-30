@@ -1,0 +1,29 @@
+.title{
+    background-color: #D8D9DA;
+    margin:0;
+    padding-bottom: 7px;
+  }
+
+.main{
+  display: flex;
+  justify-content: safe;
+  justify-content: space-between;
+}
+
+  .spc_1{
+    width: 2%;
+    height: 320px;
+    background-color: #D8D9DA;
+}
+
+.spc_2{
+    width: 1.5%;
+    height: 320px;
+    background-color: #D8D9DA;
+}
+
+.display-area{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}

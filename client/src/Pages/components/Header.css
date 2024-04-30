@@ -1,0 +1,103 @@
+.header{
+    background-color: #181823;
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+.header__first{
+    width: 35%;
+    display: flex;
+}
+
+.header__first__logo>img{
+    width: 125px;
+    object-fit: contain;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__second{
+    width: 35%;
+    height: 40px;
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.header__second>input{
+    width: 92.5%;
+    border: none;
+    outline: none;
+}
+
+.header__second>.MuiSvgIcon-root{
+    font-size: 30px;
+    padding-top: 5px;
+}
+
+.header__third{
+    width: 19%;
+    display: flex;
+}
+
+.header__fourth{
+    width: 11%;
+    display: flex;
+    justify-content: center;
+}
+
+.header__fourth__1{
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.header__fourth__1>.MuiSvgIcon-root{
+    font-size: 36px;
+    color: white;
+}
+
+.header__fourth__1>p{
+    color: white;
+    padding-left: 2px;
+    padding-bottom: 4px;
+    font-size: 16px;
+}
+
+.header__fourth__2{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__fourth__2>.MuiSvgIcon-root{
+    font-size: 45px;
+    color: white;
+    padding-right: 3px;
+}
+
+.login__button{
+    background-color: white;
+    border-radius: 2px;
+    height: 37.5px;
+    width: 80px;
+    border: none;
+    outline: none;
+}
+
+.dropdown{
+    display: block;
+    position: absolute;
+    width: 35%;
+    height: 40px;
+    background-color: white;
+    opacity: 10;
+    /* padding : 12px 16px; */
+    /* z-index: 1; */
+
+}
